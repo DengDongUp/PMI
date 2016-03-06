@@ -5,14 +5,8 @@ import os
 from extract import extract
 
 if __name__ == '__main__':
-    path = '/home/quincy1994/文档/微脉圈/训练集/体育'
-    files = os.listdir(path)
     documents = []
-    # for filename in files:
-    #     f = open(path+'/'+filename, 'r')
-    #     data = f.readlines()
-    #     extractwords = []
-    testfile = '/home/quincy1994/桌面/data.txt'
+    testfile = 'data.txt'
     f = open(testfile, 'r')
     data = f.readlines()
     if data is not None:
